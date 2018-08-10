@@ -61,7 +61,7 @@ Behaviour is configurable by those properties:
 
 ### Page Indicator
 
-Page indicator can be customized using the `pageIndicator` property on ImageSlideshow. By defualt, a plain UIPageControl is used. If needed, page control can be customized:
+Page indicator can be customized using the `pageIndicator` property on KFImageViewer. By defualt, a plain UIPageControl is used. If needed, page control can be customized:
 
 ```swift
 let pageIndicator = UIPageControl()
