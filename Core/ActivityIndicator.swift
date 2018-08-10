@@ -1,6 +1,6 @@
 //
 //  ActivityIndicator.swift
-//  ImageSlideshow
+//  KFImageViewer
 //
 //  Created by Petr Zvoníček on 01.05.17.
 //

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import KFImageViewer
 
 class ViewController: UIViewController {
     

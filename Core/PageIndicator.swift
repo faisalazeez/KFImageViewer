@@ -1,6 +1,6 @@
 //
 //  PageIndicator.swift
-//  ImageSlideshow
+//  KFImageViewer
 //
 //  Created by Petr Zvoníček on 27.05.18.
 //

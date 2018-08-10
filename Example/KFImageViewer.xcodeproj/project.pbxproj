@@ -89,13 +89,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3A957947211D5CE70088F073 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -120,7 +113,6 @@
 		607FACD21AFB9204008FA782 /* Example for KFImageViewer */ = {
 			isa = PBXGroup;
 			children = (
-				3A957947211D5CE70088F073 /* Classes */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -220,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = VLS2Q2YMXW;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = VLS2Q2YMXW;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -313,10 +307,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-KFImageViewer_Example/Pods-KFImageViewer_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/KFImageViewer/KFImageViewer.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KFImageViewer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -477,6 +473,7 @@
 			baseConfigurationReference = D76B692B2E077EE79A5B3E3E /* Pods-KFImageViewer_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VLS2Q2YMXW;
 				INFOPLIST_FILE = KFImageViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -492,6 +489,7 @@
 			baseConfigurationReference = 26349C8D5A650500541ACC5D /* Pods-KFImageViewer_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VLS2Q2YMXW;
 				INFOPLIST_FILE = KFImageViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -506,6 +504,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FF57677684B155C4BCC6E004 /* Pods-KFImageViewer_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = VLS2Q2YMXW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -528,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8121A0FBC8E886C240107694 /* Pods-KFImageViewer_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = VLS2Q2YMXW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

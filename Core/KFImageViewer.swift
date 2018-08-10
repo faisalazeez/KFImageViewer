@@ -1,6 +1,6 @@
 //
-//  ImageSlideshow.swift
-//  ImageSlideshow
+//  KFImageViewer.swift
+//  KFImageViewer
 //
 //  Created by Petr Zvoníček on 30.07.15.
 //
@@ -32,7 +32,7 @@ public enum ImagePreload {
 
 /// Main view containing the Image Slideshow
 @objcMembers
-open class ImageSlideshow: UIView {
+open class KFImageViewer: UIView {
 
     /// Scroll View to wrap the slideshow
     open let scrollView = UIScrollView()
@@ -389,7 +389,7 @@ open class ImageSlideshow: UIView {
 
     fileprivate func setTimerIfNeeded() {
         if slideshowInterval > 0 && scrollViewImages.count > 1 && slideshowTimer == nil {
-            slideshowTimer = Timer.scheduledTimer(timeInterval: slideshowInterval, target: self, selector: #selector(ImageSlideshow.slideshowTick(_:)), userInfo: nil, repeats: true)
+            slideshowTimer = Timer.scheduledTimer(timeInterval: slideshowInterval, target: self, selector: #selector(KFImageViewer.slideshowTick(_:)), userInfo: nil, repeats: true)
         }
     }
 
@@ -484,7 +484,7 @@ open class ImageSlideshow: UIView {
     }
 }
 
-extension ImageSlideshow: UIScrollViewDelegate {
+extension KFImageViewer: UIScrollViewDelegate {
 
     open func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
         if slideshowTimer?.isValid != nil {

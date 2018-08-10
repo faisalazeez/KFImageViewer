@@ -1,6 +1,6 @@
 //
 //  ZoomAnimatedTransitioning.swift
-//  ImageSlideshow
+//  KFImageViewer
 //
 //  Created by Petr Zvoníček on 31.08.15.
 //
@@ -13,7 +13,7 @@ open class ZoomAnimatedTransitioningDelegate: NSObject, UIViewControllerTransiti
     /// parent image view used for animated transition
     open var referenceImageView: UIImageView?
     /// parent slideshow view used for animated transition
-    open weak var referenceSlideshowView: ImageSlideshow?
+    open weak var referenceSlideshowView: KFImageViewer?
 
     // must be weak because FullScreenSlideshowViewController has strong reference to its transitioning delegate
     weak var referenceSlideshowController: FullScreenSlideshowViewController?
@@ -26,11 +26,11 @@ open class ZoomAnimatedTransitioningDelegate: NSObject, UIViewControllerTransiti
     open var slideToDismissEnabled: Bool = true
 
     /**
-        Init the transitioning delegate with a source ImageSlideshow
-        - parameter slideshowView: ImageSlideshow instance to animate the transition from
+        Init the transitioning delegate with a source KFImageViewer
+        - parameter slideshowView: KFImageViewer instance to animate the transition from
         - parameter slideshowController: FullScreenViewController instance to animate the transition to
      */
-    public init(slideshowView: ImageSlideshow, slideshowController: FullScreenSlideshowViewController) {
+    public init(slideshowView: KFImageViewer, slideshowController: FullScreenSlideshowViewController) {
         self.referenceSlideshowView = slideshowView
         self.referenceSlideshowController = slideshowController
 
@@ -152,10 +152,10 @@ extension ZoomAnimatedTransitioningDelegate: UIGestureRecognizerDelegate {
 class ZoomAnimator: NSObject {
 
     var referenceImageView: UIImageView?
-    var referenceSlideshowView: ImageSlideshow?
+    var referenceSlideshowView: KFImageViewer?
     var parent: ZoomAnimatedTransitioningDelegate
 
-    init(referenceSlideshowView: ImageSlideshow, parent: ZoomAnimatedTransitioningDelegate) {
+    init(referenceSlideshowView: KFImageViewer, parent: ZoomAnimatedTransitioningDelegate) {
         self.referenceSlideshowView = referenceSlideshowView
         self.referenceImageView = referenceSlideshowView.currentSlideshowItem?.imageView
         self.parent = parent

@@ -1,6 +1,6 @@
 //
 //  FullScreenSlideshowViewController.swift
-//  ImageSlideshow
+//  KFImageViewer
 //
 //  Created by Petr Zvoníček on 31.08.15.
 //
@@ -10,8 +10,8 @@ import UIKit
 @objcMembers
 open class FullScreenSlideshowViewController: UIViewController {
 
-    open var slideshow: ImageSlideshow = {
-        let slideshow = ImageSlideshow()
+    open var slideshow: KFImageViewer = {
+        let slideshow = KFImageViewer()
         slideshow.zoomEnabled = true
         slideshow.contentScaleMode = UIViewContentMode.scaleAspectFit
         slideshow.pageIndicatorPosition = PageIndicatorPosition(horizontal: .center, vertical: .bottom)

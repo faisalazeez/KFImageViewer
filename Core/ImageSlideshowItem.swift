@@ -1,6 +1,6 @@
 //
 //  ZoomablePhotoView.swift
-//  ImageSlideshow
+//  KFImageViewer
 //
 //  Created by Petr Zvoníček on 30.07.15.
 //

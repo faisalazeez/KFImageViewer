@@ -1,6 +1,6 @@
 //
 //  PageIndicator.swift
-//  ImageSlideshow
+//  KFImageViewer
 //
 //  Created by Petr Zvoníček on 04.02.18.
 //
@@ -33,10 +33,10 @@ public struct PageIndicatorPosition {
         self.vertical = vertical
     }
 
-    /// Computes the additional padding needed for the page indicator under the ImageSlideshow
+    /// Computes the additional padding needed for the page indicator under the KFImageViewer
     ///
     /// - Parameter indicatorSize: size of the page indicator
-    /// - Returns: padding needed under the ImageSlideshow
+    /// - Returns: padding needed under the KFImageViewer
     func underPadding(for indicatorSize: CGSize) -> CGFloat {
         switch vertical {
         case .under:
@@ -51,9 +51,9 @@ public struct PageIndicatorPosition {
     /// Computes the page indicator frame
     ///
     /// - Parameters:
-    ///   - parentFrame: frame of the parent view – ImageSlideshow
+    ///   - parentFrame: frame of the parent view – KFImageViewer
     ///   - indicatorSize: size of the page indicator
-    ///   - edgeInsets: edge insets of the parent view – ImageSlideshow (used for SafeAreaInsets adjustment)
+    ///   - edgeInsets: edge insets of the parent view – KFImageViewer (used for SafeAreaInsets adjustment)
     /// - Returns: frame of the indicator by computing the origin and using `indicatorSize` as size
     func indicatorFrame(for parentFrame: CGRect, indicatorSize: CGSize, edgeInsets: UIEdgeInsets) -> CGRect {
         var xSize: CGFloat = 0

@@ -1,6 +1,6 @@
 //
 //  UIImage+AspectFit.swift
-//  ImageSlideshow
+//  KFImageViewer
 //
 //  Created by Petr Zvoníček on 31.08.15.
 //  

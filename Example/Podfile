@@ -2,11 +2,10 @@ use_frameworks!
 
 target 'KFImageViewer_Example' do
   pod 'KFImageViewer', :path => '../'
+  pod "KFImageViewer/Kingfisher", :path => "../"
 
   target 'KFImageViewer_Tests' do
     inherit! :search_paths
-    pod 'Kingfisher', '~> 4.0'
-
-    
   end
+  
 end

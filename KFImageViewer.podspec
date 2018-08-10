@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KFImageViewer'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'KFImageViewer written in Swift with download progress, circular scrolling, timer and full screen viewer'
 
 # This description is used to generate tags and improve search results.
@@ -31,10 +31,18 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
   
-  s.source_files = 'KFImageViewer/Classes/**/*'
-  s.resource_bundles = {
-    'KFImageViewer' => ['KFImageViewer/Assets/*.png']
-  }
-  s.dependency 'Kingfisher', '> 4.0'
-    
+  s.requires_arc = true
+  
+  s.subspec 'Core' do |core|
+      core.source_files = 'Core/**/*'
+      core.resources = 'Core/Resources/*.png'
+  end
+  
+  s.subspec 'Kingfisher' do |subspec|
+      subspec.dependency 'KFImageViewer/Core'
+      subspec.dependency 'Kingfisher', '> 4.0'
+      subspec.source_files = 'Kingfisher/KingfisherSource.swift'
+  end
+  
+  s.default_subspec = 'Core'
 end

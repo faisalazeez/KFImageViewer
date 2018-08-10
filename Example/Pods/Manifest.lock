@@ -1,16 +1,28 @@
 PODS:
-  - KFImageViewer (0.1.0)
+  - KFImageViewer (1.0.0):
+    - KFImageViewer/Core (= 1.0.0)
+  - KFImageViewer/Core (1.0.0)
+  - KFImageViewer/Kingfisher (1.0.0):
+    - KFImageViewer/Core
+    - Kingfisher (> 4.0)
+  - Kingfisher (4.8.0)
 
 DEPENDENCIES:
   - KFImageViewer (from `../`)
+  - KFImageViewer/Kingfisher (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kingfisher
 
 EXTERNAL SOURCES:
   KFImageViewer:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KFImageViewer: 59ba96bf618e1c3b8df69aff20397341d32f3622
+  KFImageViewer: 98e9bbf8eb8547cbe068501675b95d8e14c5658a
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
 
-PODFILE CHECKSUM: 3a5c08321ced959fad3a5fece8f7112c3e421a9c
+PODFILE CHECKSUM: ec48d017d47cd4da82807056131dfeea12515cee
 
 COCOAPODS: 1.5.3

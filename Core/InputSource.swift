@@ -1,6 +1,6 @@
 //
 //  InputSource.swift
-//  ImageSlideshow
+//  KFImageViewer
 //
 //  Created by Petr Zvoníček on 14.01.16.
 //

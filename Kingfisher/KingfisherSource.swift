@@ -1,6 +1,6 @@
 //
 //  KingfisherSource.swift
-//  ImageSlideshow
+//  KFImageViewer
 //
 //  Created by feiin
 //
