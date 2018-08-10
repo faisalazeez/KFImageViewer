@@ -33,7 +33,7 @@ Set images by using ```setImageInputs``` method on ```KFImageViewer``` instance 
 
 | Library                                                       | InputSource name | Pod                               |
 | ------------------------------------------------------------- |:----------------:| ---------------------------------:|
-| [Kingfisher](https://github.com/onevcat/Kingfisher)           | KingfisherSource | `pod "ImageSlideshow/Kingfisher"` |
+| [Kingfisher](https://github.com/onevcat/Kingfisher)           | KingfisherSource | `pod "KFImageViewer/Kingfisher"` |
 
 
 ```swift
