@@ -31,9 +31,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
   
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'KFImageViewer/Classes/**/*'
   s.resource_bundles = {
-    'KFImageViewer' => ['Assets/*.png']
+    'KFImageViewer' => ['KFImageViewer/Assets/*.png']
   }
   s.dependency 'Kingfisher', '> 4.0'
     

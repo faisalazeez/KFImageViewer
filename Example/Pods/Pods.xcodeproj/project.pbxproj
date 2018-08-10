@@ -153,6 +153,15 @@
 			path = "Target Support Files/Pods-KFImageViewer_Tests";
 			sourceTree = "<group>";
 		};
+		3A957966211D64340088F073 /* KFImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				3AE1B9B3211C507800571050 /* Assets */,
+				3AE1B9B1211C4F3B00571050 /* Classes */,
+			);
+			path = KFImageViewer;
+			sourceTree = "<group>";
+		};
 		3AE1B9B1211C4F3B00571050 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -260,8 +269,7 @@
 		B12D8FC55DB9A472C4DA7DF71CB7EA76 /* KFImageViewer */ = {
 			isa = PBXGroup;
 			children = (
-				3AE1B9B3211C507800571050 /* Assets */,
-				3AE1B9B1211C4F3B00571050 /* Classes */,
+				3A957966211D64340088F073 /* KFImageViewer */,
 				B406F04035F539C10B93A7AE9DF91887 /* Pod */,
 				5CD37A9DC80E72BC7286B5A286ECC2E4 /* Support Files */,
 			);
