@@ -7,6 +7,7 @@
 
 ## Example
 
+(The library is under development. Please stay tuned)
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
