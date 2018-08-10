@@ -130,9 +130,3 @@ Faisal Azeez faisalazeez7@gmail.com
 ## 📄 License
 
 KFImageViewer is available under the MIT license. See the LICENSE file for more info.
-
-## 👀 References
-
-Inspired by projects:
-- https://github.com/zvonicek/ImageSlideshow
-
