@@ -5,6 +5,7 @@ target 'KFImageViewer_Example' do
 
   target 'KFImageViewer_Tests' do
     inherit! :search_paths
+    pod 'Kingfisher', '~> 4.0'
 
     
   end

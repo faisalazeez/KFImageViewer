@@ -1,0 +1,16 @@
+PODS:
+  - KFImageViewer (0.1.0)
+
+DEPENDENCIES:
+  - KFImageViewer (from `../`)
+
+EXTERNAL SOURCES:
+  KFImageViewer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KFImageViewer: 59ba96bf618e1c3b8df69aff20397341d32f3622
+
+PODFILE CHECKSUM: 3a5c08321ced959fad3a5fece8f7112c3e421a9c
+
+COCOAPODS: 1.5.3

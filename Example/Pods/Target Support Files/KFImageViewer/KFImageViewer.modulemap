@@ -1,0 +1,6 @@
+framework module KFImageViewer {
+  umbrella header "KFImageViewer-umbrella.h"
+
+  export *
+  module * { export * }
+}

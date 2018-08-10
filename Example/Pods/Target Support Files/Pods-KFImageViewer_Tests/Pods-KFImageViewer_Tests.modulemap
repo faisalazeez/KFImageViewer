@@ -1,0 +1,6 @@
+framework module Pods_KFImageViewer_Tests {
+  umbrella header "Pods-KFImageViewer_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
