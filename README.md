@@ -9,6 +9,8 @@
 
 (The library is under development. Please stay tuned)
 
+KFImageViewer is a Kingfisher dependent Swift library providing customizable image slideshow with download progress, circular scrolling, timer and full screen viewer and extendable image source.
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
