@@ -31,6 +31,7 @@
 		00987840BF269FB9CEB06E5D /* KFImageViewer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KFImageViewer.podspec; path = ../KFImageViewer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		26349C8D5A650500541ACC5D /* Pods-KFImageViewer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFImageViewer_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KFImageViewer_Example/Pods-KFImageViewer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3A957976211D82FE0088F073 /* KFImageViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KFImageViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A957978211D920B0088F073 /* KFImageViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KFImageViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* KFImageViewer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KFImageViewer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +85,7 @@
 		285EF3DED5099389BE3051EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3A957978211D920B0088F073 /* KFImageViewer.framework */,
 				3A957976211D82FE0088F073 /* KFImageViewer.framework */,
 				D1C167B92FE730583ADD51C7 /* Pods_KFImageViewer_Example.framework */,
 				78D43578991D6818BAB04993 /* Pods_KFImageViewer_Tests.framework */,
