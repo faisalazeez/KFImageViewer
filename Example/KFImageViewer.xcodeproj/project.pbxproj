@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A95797C211DA2410088F073 /* KFImageViewer_02.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3A95797A211DA2400088F073 /* KFImageViewer_02.gif */; };
+		3A95797D211DA2410088F073 /* KFImageViewer.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3A95797B211DA2410088F073 /* KFImageViewer.gif */; };
 		55D80F0E2CCD3CB3CB17C3F9 /* Pods_KFImageViewer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C167B92FE730583ADD51C7 /* Pods_KFImageViewer_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -32,6 +34,8 @@
 		26349C8D5A650500541ACC5D /* Pods-KFImageViewer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFImageViewer_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KFImageViewer_Example/Pods-KFImageViewer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3A957976211D82FE0088F073 /* KFImageViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KFImageViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A957978211D920B0088F073 /* KFImageViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KFImageViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A95797A211DA2400088F073 /* KFImageViewer_02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = KFImageViewer_02.gif; sourceTree = "<group>"; };
+		3A95797B211DA2410088F073 /* KFImageViewer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = KFImageViewer.gif; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* KFImageViewer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KFImageViewer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +126,8 @@
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				3A95797A211DA2400088F073 /* KFImageViewer_02.gif */,
+				3A95797B211DA2410088F073 /* KFImageViewer.gif */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for KFImageViewer";
@@ -253,7 +259,9 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				3A95797D211DA2410088F073 /* KFImageViewer.gif in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				3A95797C211DA2410088F073 /* KFImageViewer_02.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
