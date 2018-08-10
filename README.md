@@ -2,6 +2,8 @@
 
 **Customizable Kingfisher dependent Swift image slideshow with download progress, circular scrolling, timer and full screen viewer**
 
+![](https://dzwonsemrish7.cloudfront.net/items/2R06283n040V3P3p0i42/ezgif.com-optimize.gif)
+
 ## 📱 Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
