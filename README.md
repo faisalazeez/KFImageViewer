@@ -2,8 +2,8 @@
 
 **Customizable Kingfisher dependent Swift image slideshow with download progress, circular scrolling, timer and full screen viewer**
 
-![](KFImageViewer/Example/KFImageViewer/KFImageViewer_02.gif)
-![](KFImageViewer/Example/KFImageViewer/KFImageViewer.gif)
+![](https://raw.githubusercontent.com/faisalazeez/KFImageViewer/master/Example/KFImageViewer/KFImageViewer_02.gif)
+![](https://raw.githubusercontent.com/faisalazeez/KFImageViewer/master/Example/KFImageViewer/KFImageViewer.gif)
 
 ## 📱 Example
 
