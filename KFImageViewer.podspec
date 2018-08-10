@@ -28,10 +28,6 @@ Pod::Spec.new do |s|
   s.author           = { 'faisalazeez' => 'faisalazeez7@gmail.com' }
   s.source           = { :git => 'https://github.com/faisalazeez/KFImageViewer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  #s.dependency = ''Kingfisher', '> 4.0''
-  
-  s.dependency 'Kingfisher', '> 4.0'
-  s.source_files = 'Kingfisher/KingfisherSource.swift'
 
   s.ios.deployment_target = '9.0'
   
@@ -42,11 +38,11 @@ Pod::Spec.new do |s|
       core.resources = 'Core/Resources/*.png'
   end
   
-  #  s.subspec 'Kingfisher' do |subspec|
-  #   subspec.dependency 'KFImageViewer/Core'
-  #   subspec.dependency 'Kingfisher', '> 4.0'
-  #   subspec.source_files = 'Kingfisher/KingfisherSource.swift'
-  #end
+  s.subspec 'Kingfisher' do |subspec|
+      subspec.dependency 'KFImageViewer/Core'
+      subspec.dependency 'Kingfisher', '> 4.0'
+      subspec.source_files = 'Kingfisher/KingfisherSource.swift'
+  end
   
   s.default_subspec = 'Core'
 end
