@@ -29,7 +29,7 @@ Add KFImageViewer view to your view hiearchy either in Interface Builder or in c
 
 ### Loading images
 
-Set images by using ```setImageInputs``` method on ```KFImageViewer``` instance with an array of *InputSource*s. By default you can use ```ImageSource``` which takes ```UIImage``` or few other *InputSource*s for most popular networking libraries. You can also create your own input source by implementing ```InputSource``` protocol.
+Set images by using ```setImageInputs``` method on ```KFImageViewer``` instance with an array of *InputSource*s. You can also create your own input source by implementing ```InputSource``` protocol.
 
 | Library                                                       | InputSource name | Pod                               |
 | ------------------------------------------------------------- |:----------------:| ---------------------------------:|
