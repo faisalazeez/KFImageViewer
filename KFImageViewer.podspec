@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'Kingfisher' do |subspec|
       subspec.dependency 'KFImageViewer/Core'
-      subspec.dependency 'Kingfisher', '> 4.0'
+      subspec.dependency 'Kingfisher', '> 5.2'
       subspec.source_files = 'Kingfisher/KingfisherSource.swift'
   end
   
