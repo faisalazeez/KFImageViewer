@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/faisalazeez/KFImageViewer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
   
   s.requires_arc = true
   
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'Kingfisher' do |subspec|
       subspec.dependency 'KFImageViewer/Core'
-      subspec.dependency 'Kingfisher', '> 4.0'
+      subspec.dependency 'Kingfisher', '> 5.2'
       subspec.source_files = 'Kingfisher/KingfisherSource.swift'
   end
   
